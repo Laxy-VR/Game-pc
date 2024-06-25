@@ -1,0 +1,775 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7e7e7;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: steelblue;
+    color: #fff;
+    padding: 20px 0;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Style the features section */
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.feature {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .hero {
+        padding: 60px 0;
+    }
+
+    .feature {
+        flex: 0 0 48%;
+        margin: 10px;
+    }
+}
+/*/login/*/
+.containerlogin {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"]{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="number"]{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="url"]{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+
+
+/*/adminlist/*/
+
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Product container */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* This aligns items to the left */
+    margin-bottom: 140px;
+    margin-top: 20px; /* Add some top margin to push it below the sidebar */
+    padding-left: 135px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 40px;
+    -moz-border-radius: 15px;
+    width: 300px;
+    text-align: left;
+    position: relative;
+}
+
+.product img {
+    max-width: 50% !important;
+}
+
+.product h2 {
+    font-size: 18px; /* Adjust the font size for the product name */
+}
+
+.product p {
+    font-size: 19px; /* Adjust the font size for the price */
+}
+
+.product a {
+    text-decoration: none; /* Remove underline for links within the product */
+}
+
+.product-actions {
+    position: absolute;
+    bottom: 10px; /* Adjust this value to control vertical position for the delete button */
+    right: 10px; /* Adjust this value to control horizontal position for the delete button */
+}
+st {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 140px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 40px;
+    -moz-border-radius: 15px;
+
+
+    width: 300px;
+    text-align: left;
+}
+.product {
+    position: relative;
+}
+
+.product img {
+    max-width: 50% !important;
+}
+
+.product-actions {
+    position: absolute;
+    bottom: 10px; /* Adjust this value to control vertical position for the delete button */
+    right: 10px; /* Adjust this value to control horizontal position for the delete button */
+
+}
+
+.edit-button {
+    top: 10px; /* Adjust this value to control vertical position for the edit button */
+    right: 10px; /* Adjust this value to control horizontal position for the edit button */
+}
+.edit-button img,
+.delete-button img {
+    width: 24px; /* Adjust icon size as needed */
+    height: 24px;
+    margin-right: 5px; /* Add some spacing between icon and text (if needed) */
+}
+a {
+    text-decoration: none; /* Remove underlines */
+    color: #000; /* Set the desired text color for links */
+}
+
+/* Style visited links differently if needed */
+a:visited {
+    color: #666; /* Set the color for visited links */
+}
+
+/* Style links when hovered */
+a:hover {
+    text-decoration: underline; /* Add underline on hover if desired */
+}
+
+/* Style the product details container */
+.product-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    border-collapse: collapse;
+    margin-left: 20px; /* Adjust the margin as needed to separate the image and table */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+}
+
+/* Style the table header */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.image{
+    max-height: 150px ;
+    max-width: 150px;
+}
+
+/*.image-container {*/
+/*    flex: 1; !* Allow the image to expand and take available space *!*/
+/*    margin-right: 20px; !* Add margin to separate image and table *!*/
+/*    margin-top: 20px; !* Adjust the margin as needed *!*/
+/*    overflow: hidden; !* Hide any overflowing content *!*/
+/*}*/
+
+/*.image-container img {*/
+/*    max-width: 100%; !* Ensure the image doesn't exceed its container's width *!*/
+/*    max-height: 100%; !* Ensure the image doesn't exceed its container's height *!*/
+/*    width: auto;*/
+/*    height: auto;*/
+/*}*/
+
+
+
+
+/* Style the product title */
+.product-details h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the product image */
+.product-details img {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style product information */
+.product-details p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Style product price */
+.product-price {
+    font-size: 20px;
+    color: #ff6600; /* Adjust the color to your preference */
+    font-weight: bold;
+}
+
+/* Style specifications */
+.product-specs {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Style buttons or links */
+.product-details .action-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600; /* Adjust the color to your preference */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensure the body takes up the full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+
+}
+
+/* Zet de containerlogin div in het midden */
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optionally, set a height to center it vertically within the viewport */
+}
+/* Style add button button */
+
+/* Container for the Button */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Optionally, set a height to center it within the viewport */
+}
+
+/* Style for the Add Button */
+.add-product-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding for button size */
+    background-color: #007bff; /* Change the background color to your preference */
+    color: #fff;
+    width: 50px; /* Set the width to auto (or a specific width in pixels) */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 145px;
+    margin-top: 15px;
+}
+
+.add-product-button:hover {
+    background-color: #0056b3; /* Change the background color for the hover effect */
+}
+/* Style for the back button container */
+.back-button-container {
+    position: fixed;
+    bottom: 10px; /* Adjust the vertical position as needed */
+    right: 10px; /* Adjust the horizontal position as needed */
+    background-color: #ccc; /* Grey background color */
+    padding: 10px; /* Add some padding for better visibility */
+    border-radius: 5px; /* Rounded corners for the container */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+/* Style for the back button link */
+.back-button {
+    text-decoration: none; /* Remove underlines for the link */
+    color: #333; /* Text color for the button */
+    font-weight: bold; /* Bold text */
+}
+/* Style for form container */
+.form-container {
+    margin: 0 auto; /* Center the form horizontally on the page */
+    padding: 20px;
+    width: 550px;
+    background-color: #fff; /* Background color for the form */
+    border: 1px solid #ccc; /* Border for the form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-bottom: 15px;
+}
+
+/* Style for input fields */
+.form-input {
+    width: 100%; /* Make the input fields full width of the container */
+    padding: 10px; /* Add padding for spacing */
+    margin-bottom: 10px; /* Add spacing between input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 3px; /* Rounded corners for input fields */
+    font-size: 16px; /* Font size for input text */
+}
+
+/* Updated CSS for the sidebar and content */
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 265px;
+    margin-right: 40px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: hidden; /* Add a scrollbar when content exceeds the sidebar's height */
+    border-right: 2px solid lightgrey;
+}
+
+/* Sidebar Logo Styles */
+.sidebar-logo {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sidebar Menu Styles */
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s; /* Add a smooth transition for hover effect */
+}
+
+.sidebar-menu a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Sidebar Header Styles */
+.sidebar-header {
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #444;
+}
+/* Sidebar Image Styles */
+.sidebar-menu img {
+    max-width: 24px; /* Adjust the image size as needed */
+    margin-right: 10px; /* Add spacing between the image and text */
+}
+
+/* Submenu Styles */
+.submenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.sidebar-menu li:hover .submenu {
+    display: block;
+}
+
+.submenu li a {
+    padding-left: 30px;
+}
+body.sidebar-active {
+    margin-left: 210px; /* Adjust this margin to match your sidebar width */
+}
+
+/* Content Styles */
+.main-content {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: margin 0.3s; /* Add transition for smooth margin change */
+}
+
+.product-info {
+    padding: 10px; /* Add padding for spacing */
+    margin-top: auto; /* Push the div to the bottom of the product div */
+    bottom: 0; /* Place the text at the bottom */
+    position: absolute; /* Position the text absolutely within the product div */
+}
+/*radio btn active*/
+/* CSS for form label */
+.form-label {
+    font-weight: bold;
+}
+
+/* CSS for radio button container */
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+/* CSS for radio input */
+.radio-input {
+    /*display: none;*/
+}
+
+/* CSS for radio label */
+
+.radio-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.radio-label:hover {
+    background-color: #ddd;
+}
+
+/* CSS for selected radio label */
+.radio-input:checked + .radio-label {
+    background-color: #007BFF;
+    color: #fff;
+    border: 1px solid #007BFF;
+}
+/* orderpayments.css */
+/* payment.css */
+
+
+.payment-option {
+    margin: 10px 0;
+}
+
+.payment-option label {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.payment-option input[type="radio"] {
+    vertical-align: middle;
+}
+
+.ideal-options {
+    display: none;
+}
+
+.ideal-options label {
+    display: block;
+    margin-top: 10px;
+}
+
+.select, input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.select:disabled {
+    background-color: #f0f0f0;
+    color: #999;
+}
+
+/* ordercompleted.css */
+
+
+.shipping-time {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.details-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+    background-color: #0056b3;
+}
+
+.order-details {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+
+ .center-table {
+     display: flex;
+     flex-direction: column; /* Stack children vertically */
+     justify-content: flex-start; /* Align content to the top */
+     align-items: center; /* Center content horizontally */
+     min-height: 100vh; /* Minimum height to fill the viewport */
+     padding-top: 50px; /* Adjust this value as needed for spacing from the top */
+     box-sizing: border-box;
+ }
+
+.vertical-pc-table {
+    border-collapse: collapse;
+    width: auto; /* Adjust the width as necessary, or set to auto */
+    max-width: 95%; /* You can set a max-width if necessary */
+    margin-bottom: 20px; /* Provide some space at the bottom of the table */
+}
+
+.vertical-pc-table th,
+.vertical-pc-table td {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 8px;
+    text-align: left;
+}
+
+.vertical-pc-table th {
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+.vertical-pc-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+/* Simple styling for buttons */
+.vertical-pc-table button {
+    background-color: #f9f9f9; /* Matching the header background */
+    color: #333; /* Matching the text color of the header */
+    border: none; /* No border for a cleaner look */
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+.vertical-pc-table button:hover {
+    background-color: #e7e7e7; /* Slightly darker grey on hover */
+}
+
+/*order confirmation*/
+.custom-radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.custom-radio-label {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.custom-radio-label input[type="radio"] {
+}
+
+.custom-radio-label label {
+    cursor: pointer;
+    display: block;
+}
+
+.custom-radio-label input[type="radio"]:checked + label {
+    background-color: #e0e0e0;
+}
+
+.total-amount {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    font-weight: bold; /* Make the text bulkier */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-family: "Gill Sans MT Condensed";
+}
